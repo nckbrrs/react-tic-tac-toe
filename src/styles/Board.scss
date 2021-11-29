@@ -1,0 +1,19 @@
+.board {
+    $square-size: 60px;
+
+    .board-status {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .board-row {
+        display: grid;
+        grid-template-columns: repeat(3, $square-size);
+        justify-content: center;
+        
+        .square {
+            height: $square-size;
+            width: $square-size;
+        }
+    }
+}

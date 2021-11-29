@@ -1,0 +1,10 @@
+.square {
+    border: 1px solid black;
+    background-color: lightcyan;
+    font-size: 40px;
+    font-weight: bold;
+
+    &.winner {
+        background-color: lightgreen;
+    }
+}
